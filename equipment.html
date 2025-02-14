@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Featured Equipment - Explore the top 10 vehicle types available for rental at Rental Hire Desk.">
+    <meta name="keywords" content="equipment rental, excavators, bulldozers, cranes, backhoe loaders, wheel loaders, dump trucks, graders, scrapers, pile drivers, concrete mixers">
+    <meta name="author" content="Rental Hire Desk">
+    <title>Featured Equipment | Rental Hire Desk</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        .equipment-section {
+            padding: 60px 20px;
+            background-color: #fff;
+            text-align: center;
+        }
+        .equipment-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            color: #333;
+            font-weight: 600;
+        }
+        .equipment-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .equipment-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .equipment-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+        .equipment-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .equipment-card h3 {
+            font-size: 1.5rem;
+            margin: 20px 0 10px;
+            color: #333;
+            font-weight: 600;
+        }
+        .equipment-card p {
+            font-size: 1rem;
+            color: #555;
+            padding: 0 20px 20px;
+            font-family: 'Roboto', sans-serif;
+        }
+        @media (max-width: 768px) {
+            .equipment-container {
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            }
+        }
+        /* Home Button Styles */
+        .home-button {
+            position: fixed;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+            background-color: #f4a261;
+            color: #fff;
+            padding: 15px;
+            border-radius: 50%;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            z-index: 1000;
+            text-decoration: none;
+        }
+        .home-button:hover {
+            background-color: #e76f51;
+            transform: translateY(-50%) scale(1.1);
+        }
+        .home-button i {
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Featured Equipment Section -->
+    <section class="equipment-section">
+        <h2>Featured Equipment</h2>
+        <div class="equipment-container">
+            <!-- Excavators -->
+            <div class="equipment-card">
+                <img src="Excavators.jpg" alt="Excavator">
+                <h3>Excavators</h3>
+                <p>Ideal for digging, lifting, and moving earth or materials.</p>
+            </div>
+
+            <!-- Bulldozers -->
+            <div class="equipment-card">
+                <img src="Bulldozers.jpg" alt="Bulldozer">
+                <h3>Bulldozers</h3>
+                <p>Powerful machines for pushing large quantities of debris.</p>
+            </div>
+
+            <!-- Cranes -->
+            <div class="equipment-card">
+                <img src="Cranes.jpg" alt="Crane">
+                <h3>Cranes</h3>
+                <p>Essential for lifting and moving heavy materials at heights.</p>
+            </div>
+
+            <!-- Backhoe Loaders -->
+            <div class="equipment-card">
+                <img src="Backhoe Loaders.jpg" alt="Backhoe Loader">
+                <h3>Backhoe Loaders</h3>
+                <p>Versatile equipment for digging, lifting, and transporting materials.</p>
+            </div>
+
+            <!-- Wheel Loaders -->
+            <div class="equipment-card">
+                <img src="Wheel Loaders.png" alt="Wheel Loader">
+                <h3>Wheel Loaders</h3>
+                <p>Designed for scooping and transporting loose materials.</p>
+            </div>
+
+            <!-- Dump Trucks -->
+            <div class="equipment-card">
+                <img src="Dump Trucks.jpg" alt="Dump Truck">
+                <h3>Dump Trucks</h3>
+                <p>Used for transporting materials efficiently with hydraulic lift support.</p>
+            </div>
+
+            <!-- Graders -->
+            <div class="equipment-card">
+                <img src="Graders.jpg" alt="Grader">
+                <h3>Graders</h3>
+                <p>Utilized for leveling and smoothing surfaces for construction projects.</p>
+            </div>
+
+            <!-- Scrapers -->
+            <div class="equipment-card">
+                <img src="scraper.jpg" alt="Scraper">
+                <h3>Scrapers</h3>
+                <p>Large machines for excavation and soil removal.</p>
+            </div>
+
+            <!-- Pile Drivers -->
+            <div class="equipment-card">
+                <img src="pile d1.jpg" alt="Pile Driver">
+                <h3>Pile Drivers</h3>
+                <p>Used for driving heavy poles into the ground for structural support.</p>
+            </div>
+
+            <!-- Concrete Mixers -->
+            <div class="equipment-card">
+                <img src="Concrete Mixers.jpg" alt="Concrete Mixer">
+                <h3>Concrete Mixers</h3>
+                <p>Ensuring uniform mixing of concrete before application.</p>
+            </div>
+        </div>
+    </section>
+        <!-- Home Button -->
+    <a href="index.html" class="home-button">
+        <i class="fas fa-home"></i>
+    </a>
+</body>
+</html>
